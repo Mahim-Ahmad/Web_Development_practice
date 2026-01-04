@@ -1,0 +1,22 @@
+nav li{
+    list-style: none;
+    display: inline;
+    margin: 5%;
+    margin-right: 12%;
+}
+nav li a{
+    text-decoration: none;
+}
+nav li a:hover{
+    background-color: burlywood;
+}
+header{
+    background-color: lightblue;
+    padding: 2%;
+}
+footer{
+    background-color: lightgray;
+    text-align: center;
+    padding: 1%;
+    margin-top: 2%;
+}
