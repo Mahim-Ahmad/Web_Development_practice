@@ -13,10 +13,12 @@ nav li a:hover{
 header{
     background-color: lightblue;
     padding: 2%;
+    border-radius: 5%;
 }
 footer{
     background-color: lightgray;
     text-align: center;
     padding: 1%;
     margin-top: 2%;
+    
 }
