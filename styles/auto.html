@@ -3,33 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>center flex</title>
+    <title>Auto</title>
 
     <style>
         .container{
             background-color: aqua;
-            display: flex;
-            justify-content: center;
-            height: 800px;
-            align-items: center;
+            
         }
 
         .box{
             background-color: lightgreen;
-            height: 100px;
-            width: 300px;
+            max-width: 1100px;
             font-size: 30px;
-            
+            margin: 0 auto;// center the box horizontally
         }
     </style>
 </head>
 <body>
+
     <div class="container">
         <div class="box">
-            Centered Box
+            <h1>Centered Box</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, iure laborum nam illo, culpa mollitia repellendus cum facilis in ipsam ex nulla id saepe veniam perspiciatis necessitatibus recusandae dolorem nemo!</p>
         </div>
     </div>
 
+    
     
 </body>
 </html>
