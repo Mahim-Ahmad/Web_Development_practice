@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+
+    <style>
+        .container div{
+            border: 2px solid black;
+            height: 50px;
+            width: 200px;
+            font-size: 30px;
+            padding: 10px;
+        }
+        .container{
+            display: flex;
+        }
+
+        .box{
+            border: 2px solid black;
+            height: 50px;
+            width: 200px;
+            font-size: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 5px;
+        }
+
+        .box-container{
+            display: flex;
+            padding: 10px;
+            gap: 10px;
+        }
+
+        .user{
+            border: 2px solid black;
+            height: 50px;
+            width: 200px;
+            background-color: lightgray;
+            font-size: 2em;
+        }
+        .user-container{
+            display: flex;
+            justify-content: space-between;  
+            gap: 20px;
+            
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div>
+
+    <!-- .Box-Container -->
+    <div class="box-container">
+
+        <!-- .box{$}*6 -->
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+    </div>
+
+    <div class="user-container">
+        <!-- .user{user-$}*3 -->
+        <div class="user">user-1</div>
+        <div class="user">user-2</div>
+        <div class="user">user-3</div>
+    </div>
+
+
+
+
+    
+</body>
+</html>
